@@ -1,0 +1,95 @@
+body
+{
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+h1
+{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px cadetblue;
+    font-family: "comic sans ms",sans-serif;
+    
+}
+fieldset
+{
+    border: 3px solid azure;
+    color: azure;
+    border-radius: 0px 30px 0px 30px;
+    font-family: "comic sans ms",sans-serif;
+    margin-top: 15px;
+    background-color: rgba(73, 70, 70, 0.301);
+
+}
+fieldset>legend
+{
+    background-color: cadetblue;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 0px 20px 0px 20px;
+    border: 1.5px solid white;
+    
+}
+table
+{
+    width: 100%;
+}
+input[type="text"],textarea,input[type="date"],input[type="month"],input[type="number"]
+{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+
+    
+}
+input[type="text"]:focus,textarea:focus,input[type="date"]:focus,input[type="month"]:focus,select:focus
+{
+    background-color: rgba(140, 215, 218, 0.466);
+}
+textarea
+{
+   height: 60px; 
+}
+select
+{
+    font-size: 15px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+
+}
+ table th
+{
+    text-align: left;
+}
+
+input[type="Submit"],input[type="Reset"]
+{
+    background-color: cadetblue;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 0px 20px 0px 20px;
+    border: none;
+    color: azure;
+    font-family: "comic sans ms",sans-serif; 
+    width: 150px;
+    border: 1.5px solid azure;
+    
+}
+input[type="Submit"]:hover,input[type="Reset"]:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 20px azure;
+}
+
+
+
+
